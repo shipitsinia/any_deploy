@@ -23,7 +23,7 @@ env:
   ECR_REPOSITORY: sipring           
   ECS_SERVICE: sipring                
   ECS_CLUSTER: pbx-sipring                 
-  ECS_TASK_DEFINITION: .sipring/pbx.json  # file, e.g. .aws/task-definition.json
+  ECS_TASK_DEFINITION: ./pbx.json
   CONTAINER_NAME: pbx           
                                             
 
