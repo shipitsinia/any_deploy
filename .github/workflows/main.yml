@@ -8,10 +8,10 @@ on:
 env:
   AWS_REGION: us-east-2                   
   ECR_REPOSITORY: sipring           
-  ECS_SERVICE: sipring                
+  ECS_SERVICE: pbx-sipring                
   ECS_CLUSTER: pbx-sipring                 
   ECS_TASK_DEFINITION: pbx.json  # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: pbx-sipring  #nginx           
+  CONTAINER_NAME: nginx           
                                             
 
 jobs:
