@@ -11,7 +11,7 @@ env:
   ECS_SERVICE: sipring                
   ECS_CLUSTER: pbx-sipring                 
   ECS_TASK_DEFINITION: pbx.json  # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: sipring           
+  CONTAINER_NAME: nginx           
                                             
 
 jobs:
